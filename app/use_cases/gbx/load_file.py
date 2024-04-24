@@ -29,7 +29,7 @@ class LoadRunUseCase:
             cp_times.append(time_to_str(cp_time))
 
         return UploadFileResponse(
-            map_uid=ghost.uid,
+            map_uid=challenge.map_uid,
             map_name=challenge.map_name,
             nick_name=replay.nickname,
             race_time=race_time,
